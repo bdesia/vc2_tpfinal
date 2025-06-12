@@ -21,5 +21,5 @@ Este repositorio presenta 2 notebooks:
 6) Evaluación de métricas de perfomance.
 7) Conclusiones
 
-- **Proportional_separatwd.ipynb**. Se enfoca el problema de manera desacoplada, teniendo dos modelos independientes para clasificar la especie de planta y el estado de salud, respectivamente.
+- **Proportional_separated.ipynb**. Se enfoca el problema de manera desacoplada, teniendo dos modelos independientes para clasificar la especie de planta y el estado de salud, respectivamente.
 

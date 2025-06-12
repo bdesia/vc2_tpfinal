@@ -12,7 +12,7 @@ El enfoque aplicado para el dataset en cuestión consiste en hacer una Clasifica
 
 Este repositorio presenta 2 notebooks:
 
-- **Plant_Disease_Detection.ipynb**. Se enfoca el modelo multi-output con un único modelo que devuelve las dos clasificaciones (especie de planta y estado de salud). Contiene:
+- **Plant_Disease_Detection_v2.ipynb**. Se enfoca el modelo multi-output con un único modelo que devuelve las dos clasificaciones (especie de planta y estado de salud). Contiene:
 1) EDA
 2) Modelo #1: Baseline Simple CNN
 3) Modelo #2: Baseline Simple CNN with RandAugmentation.

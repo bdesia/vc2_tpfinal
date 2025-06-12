@@ -14,17 +14,11 @@ Este repositorio presenta 2 notebooks:
 
 - **Plant_Disease_Detection_v2.ipynb**. Se enfoca el modelo multi-output con un único modelo que devuelve las dos clasificaciones (especie de planta y estado de salud). Contiene:
 1) EDA
-2) Modelo #1: Baseline Simple CNN
-3) Modelo #2: Baseline Simple CNN with RandAugmentation.
-4) Modelo #3: Pre-Trained RESNET 18. Se mantienen congeladas las capas convoluciones y se entrenan solo las cabezas de clasificación (feature extraction approach).
-5) Modelo #4: RESNET18 Fully-trained. Se entran toda la red completamente. Se presenta la matriz de confusión y el classification report.
+2) Modelo #1: Baseline Simple CNN. Salvado en archivo "PDC_baseline.pth".
+3) Modelo #2: Baseline Simple CNN with RandAugmentation. Salvado en archivo "PDC_baseline_wRA.pth".
+4) Modelo #3: Pre-Trained RESNET 18. Se mantienen congeladas las capas convoluciones y se entrenan solo las cabezas de clasificación (feature extraction approach). Salvado en archivo "PDC_ptRN18.pth".
+5) Modelo #4: RESNET18 Fully-trained. Se entran toda la red completamente. Se presenta la matriz de confusión y el classification report. Salvado en archivo "PDC_RN18_ ft.pth".
 7) Comparación de modelos y conclusiones.
-
-Los modelos de esta notebook están salvados en los archivos:
-     - Modelo #1: PDC_baseline.pth
-     - Modelo #2: PDC_baseline_wRA.pth
-     - Modelo #3: PDC_ptRN18.pth
-     - Modelo #4: PDC_RN18_ ft.pth
 
 - **Proportional_separated.ipynb**. Se enfoca el problema de manera desacoplada, teniendo dos modelos independientes para clasificar la especie de planta y el estado de salud, respectivamente.
 

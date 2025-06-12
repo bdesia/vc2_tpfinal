@@ -21,10 +21,10 @@ Este repositorio presenta 2 notebooks:
 7) Comparación de modelos y conclusiones.
 
 Los modelos de esta notebook están salvados en los archivos:
-  - Modelo #1: PDC_baseline.pth
-  - Modelo #2: PDC_baseline_wRA.pth
-  - Modelo #3: PDC_ptRN18.pth
-  - Modelo #4: PDC_RN18_ ft.pth
+     - Modelo #1: PDC_baseline.pth
+     - Modelo #2: PDC_baseline_wRA.pth
+     - Modelo #3: PDC_ptRN18.pth
+     - Modelo #4: PDC_RN18_ ft.pth
 
 - **Proportional_separated.ipynb**. Se enfoca el problema de manera desacoplada, teniendo dos modelos independientes para clasificar la especie de planta y el estado de salud, respectivamente.
 
